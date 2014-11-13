@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    if (debugEnable) NSLog(@"%s - %d", __PRETTY_FUNCTION__, __LINE__);
 }
 
 - (void)didReceiveMemoryWarning {
