@@ -14,6 +14,7 @@
 		75A277B71A148269003B512A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75A277B61A148269003B512A /* Images.xcassets */; };
 		75A277BA1A148269003B512A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75A277B81A148269003B512A /* LaunchScreen.xib */; };
 		75A277C61A148269003B512A /* GitWithXcodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A277C51A148269003B512A /* GitWithXcodeTests.m */; };
+		75A277D41A1487CA003B512A /* AppConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A277D31A1487CA003B512A /* AppConstants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		75A277BF1A148269003B512A /* GitWithXcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitWithXcodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A277C41A148269003B512A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75A277C51A148269003B512A /* GitWithXcodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitWithXcodeTests.m; sourceTree = "<group>"; };
+		75A277D21A1487CA003B512A /* AppConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstants.h; sourceTree = "<group>"; };
+		75A277D31A1487CA003B512A /* AppConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppConstants.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 		75A277CF1A148387003B512A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				75A277D21A1487CA003B512A /* AppConstants.h */,
+				75A277D31A1487CA003B512A /* AppConstants.m */,
 				75A277AD1A148269003B512A /* AppDelegate.h */,
 				75A277AE1A148269003B512A /* AppDelegate.m */,
 			);
@@ -246,6 +251,7 @@
 				75A277B21A148269003B512A /* ViewController.m in Sources */,
 				75A277AF1A148269003B512A /* AppDelegate.m in Sources */,
 				75A277AC1A148269003B512A /* main.m in Sources */,
+				75A277D41A1487CA003B512A /* AppConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
