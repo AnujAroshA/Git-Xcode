@@ -22,7 +22,7 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    if (debugEnable) NSLog(@"%s - %d", __PRETTY_FUNCTION__, __LINE__);
 }
 
 @end
