@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     if (debugEnable) NSLog(@"%s - %d", __PRETTY_FUNCTION__, __LINE__);
-    
+
     if (debugEnable) NSLog(@"Change from Xcode");
 }
 
