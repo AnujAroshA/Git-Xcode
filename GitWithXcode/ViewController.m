@@ -21,7 +21,8 @@
 
     if (debugEnable) NSLog(@"Change from Both");
     
-    if (debugEnable) NSLog(@"Change from Xcode");
+    if (debugEnable) NSLog(@"Change from Both 2");
+
 }
 
 - (void)didReceiveMemoryWarning {
