@@ -17,7 +17,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+   if (debugEnable) NSLog(@"%s - %d", __PRETTY_FUNCTION__, __LINE__);
     return YES;
 }
 
