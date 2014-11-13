@@ -81,13 +81,10 @@
 		75A277A81A148269003B512A /* GitWithXcode */ = {
 			isa = PBXGroup;
 			children = (
-				75A277AD1A148269003B512A /* AppDelegate.h */,
-				75A277AE1A148269003B512A /* AppDelegate.m */,
-				75A277B01A148269003B512A /* ViewController.h */,
-				75A277B11A148269003B512A /* ViewController.m */,
-				75A277B31A148269003B512A /* Main.storyboard */,
+				75A277CF1A148387003B512A /* Model */,
+				75A277D01A148390003B512A /* Controller */,
+				75A277D11A1483A0003B512A /* View */,
 				75A277B61A148269003B512A /* Images.xcassets */,
-				75A277B81A148269003B512A /* LaunchScreen.xib */,
 				75A277A91A148269003B512A /* Supporting Files */,
 			);
 			path = GitWithXcode;
@@ -117,6 +114,33 @@
 				75A277C41A148269003B512A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75A277CF1A148387003B512A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				75A277AD1A148269003B512A /* AppDelegate.h */,
+				75A277AE1A148269003B512A /* AppDelegate.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		75A277D01A148390003B512A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				75A277B01A148269003B512A /* ViewController.h */,
+				75A277B11A148269003B512A /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		75A277D11A1483A0003B512A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				75A277B31A148269003B512A /* Main.storyboard */,
+				75A277B81A148269003B512A /* LaunchScreen.xib */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
